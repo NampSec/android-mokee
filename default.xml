@@ -80,7 +80,7 @@
   <project path="external/arm-neon-tests" name="platform/external/arm-neon-tests" groups="vendor" remote="aosp" />
   <project path="external/arm-optimized-routines" name="platform/external/arm-optimized-routines" groups="pdk" remote="aosp" />
   <project path="external/autotest" name="platform/external/autotest" groups="pdk-fs" remote="aosp" />
-  <project path="external/avb" name="platform/external/avb" groups="pdk" remote="aosp" />
+  <project path="external/avb" name="MoKee/android_external_avb" groups="pdk" />
   <project path="external/bcc" name="platform/external/bcc" groups="pdk" remote="aosp" />
   <project path="external/blktrace" name="platform/external/blktrace" groups="pdk" remote="aosp" />
   <project path="external/boringssl" name="platform/external/boringssl" groups="pdk" remote="aosp" />
@@ -103,7 +103,7 @@
   <project path="external/conscrypt" name="platform/external/conscrypt" groups="pdk" remote="aosp" />
   <project path="external/crcalc" name="platform/external/crcalc" groups="pdk" remote="aosp" />
   <project path="external/cros/system_api" name="platform/external/cros/system_api" groups="pdk" remote="aosp" />
-  <project path="external/curl" name="platform/external/curl" groups="pdk" remote="aosp" />
+  <project path="external/curl" name="MoKee/android_external_curl" groups="pdk" />
   <project path="external/dagger2" name="platform/external/dagger2" groups="pdk" remote="aosp" />
   <project path="external/deqp" name="platform/external/deqp" groups="pdk-fs" remote="aosp" />
   <project path="external/deqp-deps/SPIRV-Headers" name="platform/external/deqp-deps/SPIRV-Headers" groups="pdk-fs" remote="aosp" />
@@ -201,10 +201,10 @@
   <project path="external/libaom" name="platform/external/libaom" groups="pdk" remote="aosp" />
   <project path="external/libavc" name="platform/external/libavc" groups="pdk" remote="aosp" />
   <project path="external/libbackup" name="platform/external/libbackup" groups="pdk" remote="aosp" />
-  <project path="external/libbrillo" name="platform/external/libbrillo" groups="pdk" remote="aosp" />
+  <project path="external/libbrillo" name="MoKee/android_external_libbrillo" groups="pdk" />
   <project path="external/libcap" name="platform/external/libcap" groups="pdk" remote="aosp" />
   <project path="external/libcap-ng" name="platform/external/libcap-ng" groups="pdk" remote="aosp" />
-  <project path="external/libchrome" name="platform/external/libchrome" groups="pdk" remote="aosp" />
+  <project path="external/libchrome" name="MoKee/android_external_libchrome" groups="pdk" />
   <project path="external/libcups" name="platform/external/libcups" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
   <project path="external/libcxx" name="platform/external/libcxx" groups="pdk" remote="aosp" />
   <project path="external/libcxxabi" name="platform/external/libcxxabi" groups="pdk" remote="aosp" />
@@ -283,7 +283,7 @@
   <project path="external/okhttp" name="platform/external/okhttp" groups="pdk" remote="aosp" />
   <project path="external/one-true-awk" name="platform/external/one-true-awk" groups="pdk" remote="aosp" />
   <project path="external/opencensus-java" name="platform/external/opencensus-java" groups="pdk,tradefed" remote="aosp" />
-  <project path="external/openssh" name="platform/external/openssh" groups="pdk" remote="aosp" />
+  <project path="external/openssh" name="MoKee/android_external_openssh" groups="pdk" />
   <project path="external/owasp/sanitizer" name="platform/external/owasp/sanitizer" groups="pdk" remote="aosp" />
   <project path="external/parameter-framework" name="platform/external/parameter-framework" groups="pdk" remote="aosp" />
   <project path="external/pcre" name="platform/external/pcre" groups="pdk" remote="aosp" />
@@ -296,7 +296,7 @@
   <project path="external/proguard" name="platform/external/proguard" groups="pdk" remote="aosp" />
   <project path="external/protobuf" name="platform/external/protobuf" groups="pdk" remote="aosp" />
   <project path="external/protobuf-javalite" name="platform/external/protobuf-javalite" groups="pdk" remote="aosp" />
-  <project path="external/puffin" name="platform/external/puffin" groups="pdk" remote="aosp" />
+  <project path="external/puffin" name="MoKee/android_external_puffin" groups="pdk" />
   <project path="external/python/apitools" name="platform/external/python/apitools" groups="pdk" remote="aosp" />
   <project path="external/python/cpython2" name="platform/external/python/cpython2" groups="pdk" remote="aosp" />
   <project path="external/python/cpython3" name="platform/external/python/cpython3" groups="pdk" remote="aosp" />
@@ -419,7 +419,7 @@
   <project path="frameworks/opt/vcard" name="platform/frameworks/opt/vcard" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
   <project path="frameworks/rs" name="platform/frameworks/rs" groups="pdk" remote="aosp" />
   <project path="frameworks/wilhelm" name="platform/frameworks/wilhelm" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
-  <project path="hardware/broadcom/libbt" name="platform/hardware/broadcom/libbt" groups="pdk" remote="aosp" />
+  <project path="hardware/broadcom/libbt" name="MoKee/android_hardware_broadcom_libbt" groups="pdk" />
   <project path="hardware/broadcom/wlan" name="platform/hardware/broadcom/wlan" groups="pdk,broadcom_wlan" remote="aosp" />
   <project path="hardware/google/apf" name="platform/hardware/google/apf" groups="pdk" remote="aosp" />
   <project path="hardware/google/av" name="platform/hardware/google/av" groups="pdk" remote="aosp" />
@@ -434,13 +434,13 @@
   <project path="hardware/nxp/secure_element" name="platform/hardware/nxp/secure_element" groups="pdk" remote="aosp" />
   <project path="hardware/qcom/audio" name="MoKee/android_hardware_qcom_audio" groups="qcom,qcom_audio,pdk-qcom" />
   <project path="hardware/qcom/bootctrl" name="MoKee/android_hardware_qcom_bootctrl" groups="pdk-qcom" />
-  <project path="hardware/qcom/bt" name="platform/hardware/qcom/bt" groups="qcom,pdk-qcom" remote="aosp" />
+  <project path="hardware/qcom/bt" name="MoKee/android_hardware_qcom_bt" groups="qcom,pdk-qcom" />
   <project path="hardware/qcom/camera" name="platform/hardware/qcom/camera" groups="qcom_camera,pdk-qcom" remote="aosp" />
   <project path="hardware/qcom/data/ipacfg-mgr" name="platform/hardware/qcom/data/ipacfg-mgr" groups="qcom,pdk-qcom" remote="aosp" />
   <project path="hardware/qcom/display" name="MoKee/android_hardware_qcom_display" groups="pdk-qcom,qcom,qcom_display" />
-  <project path="hardware/qcom/gps" name="platform/hardware/qcom/gps" groups="qcom,qcom_gps,pdk-qcom" remote="aosp" />
+  <project path="hardware/qcom/gps" name="MoKee/android_hardware_qcom_gps" groups="qcom,qcom_gps,pdk-qcom" />
   <project path="hardware/qcom/keymaster" name="MoKee/android_hardware_qcom_keymaster" groups="qcom,qcom_keymaster,pdk-qcom" />
-  <project path="hardware/qcom/media" name="platform/hardware/qcom/media" groups="qcom,pdk-qcom" remote="aosp" />
+  <project path="hardware/qcom/media" name="MoKee/android_hardware_qcom_media" groups="qcom,pdk-qcom" />
   <project path="hardware/qcom/neuralnetworks/hvxservice" name="platform/hardware/qcom/neuralnetworks/hvxservice" groups="wahoo" remote="aosp" />
   <project path="hardware/qcom/sdm845/bt" name="platform/hardware/qcom/sdm845/bt" groups="qcom_sdm845" remote="aosp" />
   <project path="hardware/qcom/sdm845/data/ipacfg-mgr" name="platform/hardware/qcom/sdm845/data/ipacfg-mgr" groups="vendor,qcom_sdm845" remote="aosp" >
@@ -618,7 +618,7 @@
   <project path="system/libvintf" name="platform/system/libvintf" groups="pdk" remote="aosp" />
   <project path="system/linkerconfig" name="platform/system/linkerconfig" groups="pdk" remote="aosp" />
   <project path="system/media" name="platform/system/media" groups="pdk" remote="aosp" />
-  <project path="system/netd" name="platform/system/netd" groups="pdk" remote="aosp" />
+  <project path="system/netd" name="MoKee/android_system_netd" groups="pdk" />
   <project path="system/nfc" name="platform/system/nfc" groups="pdk" remote="aosp" />
   <project path="system/nvram" name="platform/system/nvram" groups="pdk" remote="aosp" />
   <project path="system/security" name="platform/system/security" groups="pdk" remote="aosp" />
