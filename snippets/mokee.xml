@@ -3,7 +3,7 @@
 
   <!-- MoKee Open Source additions -->
   <project path="android" name="MoKee/android" />
-  <!--<project path="device/mokee/sepolicy" name="MoKee/android_device_mokee_sepolicy" />-->
+  <project path="device/mokee/sepolicy" name="MoKee/android_device_mokee_sepolicy" />
   <project path="external/airbnb-lottie" name="MoKee/android_external_airbnb-lottie" />
   <project path="external/bash" name="MoKee/android_external_bash" />
   <project path="external/exfat" name="MoKee/android_external_exfat" />
@@ -41,6 +41,7 @@
   <!--<project path="packages/apps/SetupWizard" name="MoKee/android_packages_apps_SetupWizard" />-->
   <project path="packages/apps/SimpleCommons" name="MoKee/android_packages_apps_SimpleCommons" revision="master" />
   <!--<project path="packages/apps/Snap" name="MoKee/android_packages_apps_Snap" />-->
+  <project path="packages/apps/WarpShare" name="MoKee/android_packages_apps_WarpShare" />
   <!--<project path="packages/overlays/MoKee" name="MoKee/android_packages_overlays_MoKee" />-->
   <!--<project path="packages/providers/WeatherProvider" name="MoKee/android_packages_providers_WeatherProvider" />-->
   <!--<project path="prebuilts/mokee-sdk" name="MoKee/android_prebuilts_mokee-sdk" clone-depth="1" />-->
@@ -134,7 +135,7 @@
   <project path="vendor/nxp/opensource/sn100x/halimpl" name="MoKee/android_vendor_nxp_opensource_halimpl" revision="mkq-sn100x" />
   <project path="vendor/nxp/opensource/sn100x/hidlimpl" name="MoKee/android_vendor_nxp_opensource_hidlimpl" revision="mkq-sn100x" />
   <project path="vendor/qcom/opensource/audio" name="MoKee/android_vendor_qcom_opensource_audio" groups="qcom,pdk-qcom" />
-  <!--<project path="vendor/qcom/opensource/cryptfs_hw" name="MoKee/android_vendor_qcom_opensource_cryptfs_hw" groups="qcom,pdk-qcom" />-->
+  <project path="vendor/qcom/opensource/cryptfs_hw" name="MoKee/android_vendor_qcom_opensource_cryptfs_hw" groups="qcom,pdk-qcom" />-
   <project path="vendor/qcom/opensource/fm-commonsys" name="MoKee/android_vendor_qcom_opensource_fm-commonsys" groups="qcom,qcom_fm" />
   <project path="vendor/qcom/opensource/data-ipa-cfg-mgr" name="MoKee/android_vendor_qcom_opensource_data-ipa-cfg-mgr" groups="qcom,pdk-qcom" />
   <project path="vendor/qcom/opensource/dataservices" name="MoKee/android_vendor_qcom_opensource_dataservices" groups="qcom,pdk-qcom" />
