@@ -11,7 +11,7 @@
   <remote  name="aosp"
            fetch="https://aosp.tuna.tsinghua.edu.cn"
            review="android-review.googlesource.com"
-           revision="refs/tags/android-10.0.0_r4" />
+           revision="refs/tags/android-10.0.0_r11" />
 
   <default revision="refs/heads/mkq"
            remote="mokee"
@@ -121,7 +121,7 @@
   <project path="external/drrickorang" name="platform/external/drrickorang" groups="pdk" remote="aosp" />
   <project path="external/dtc" name="platform/external/dtc" groups="pdk" remote="aosp" />
   <project path="external/dynamic_depth" name="platform/external/dynamic_depth" groups="pdk" remote="aosp" />
-  <project path="external/e2fsprogs" name="platform/external/e2fsprogs" groups="pdk" remote="aosp" />
+  <project path="external/e2fsprogs" name="MoKee/android_external_e2fsprogs" groups="pdk" />
   <project path="external/easymock" name="platform/external/easymock" groups="pdk" remote="aosp" />
   <project path="external/eigen" name="platform/external/eigen" groups="pdk" remote="aosp" />
   <project path="external/elfutils" name="MoKee/android_external_elfutils" groups="pdk" />
@@ -276,7 +276,7 @@
   <project path="external/nos/host/android" name="platform/external/nos/host/android" groups="pixel" remote="aosp" />
   <project path="external/nos/host/generic" name="platform/external/nos/host/generic" groups="pixel" remote="aosp" />
   <project path="external/nos/test/system-test-harness" name="platform/external/nos/test/system-test-harness" groups="pixel" remote="aosp" />
-  <project path="external/noto-fonts" name="platform/external/noto-fonts" groups="pdk" remote="aosp" />
+  <project path="external/noto-fonts" name="MoKee/android_external_noto-fonts" groups="pdk" />
   <project path="external/oauth" name="platform/external/oauth" groups="pdk" remote="aosp" />
   <project path="external/objenesis" name="platform/external/objenesis" groups="pdk" remote="aosp" />
   <project path="external/oj-libjdwp" name="platform/external/oj-libjdwp" groups="pdk" remote="aosp" />
@@ -509,14 +509,14 @@
   <project path="packages/apps/StorageManager" name="MoKee/android_packages_apps_StorageManager" groups="pdk-fs" />
   <project path="packages/apps/Tag" name="MoKee/android_packages_apps_Tag" groups="pdk-fs" />
   <project path="packages/apps/Terminal" name="MoKee/android_packages_apps_Terminal" groups="pdk-fs" />
-  <project path="packages/apps/ThemePicker" name="platform/packages/apps/ThemePicker" groups="pdk-fs" remote="aosp" />
+  <project path="packages/apps/ThemePicker" name="MoKee/android_packages_apps_ThemePicker" groups="pdk-fs" />
   <project path="packages/apps/Test/connectivity" name="platform/packages/apps/Test/connectivity" groups="pdk" remote="aosp" />
   <project path="packages/apps/Traceur" name="MoKee/android_packages_apps_Traceur" groups="pdk-fs" />
   <project path="packages/apps/TvSettings" name="MoKee/android_packages_apps_TvSettings" groups="pdk-fs" />
   <project path="packages/apps/TV" name="MoKee/android_packages_apps_TV" groups="pdk" />
   <project path="packages/apps/UnifiedEmail" name="MoKee/android_packages_apps_UnifiedEmail" groups="pdk-fs" />
   <project path="packages/apps/UniversalMediaPlayer" name="platform/packages/apps/UniversalMediaPlayer" remote="aosp" />
-  <project path="packages/apps/WallpaperPicker2" name="platform/packages/apps/WallpaperPicker2" groups="pdk-fs" remote="aosp" />
+  <project path="packages/apps/WallpaperPicker2" name="MoKee/android_packages_apps_WallpaperPicker2" groups="pdk-fs" />
   <project path="packages/inputmethods/LatinIME" name="MoKee/android_packages_inputmethods_LatinIME" groups="pdk-fs" />
   <project path="packages/modules/CaptivePortalLogin" name="MoKee/android_packages_modules_CaptivePortalLogin" groups="pdk-cw-fs,pdk-fs" />
   <project path="packages/modules/ExtServices" name="platform/packages/modules/ExtServices" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
