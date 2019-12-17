@@ -436,7 +436,7 @@
   <project path="hardware/qcom/bootctrl" name="MoKee/android_hardware_qcom_bootctrl" groups="pdk-qcom" />
   <project path="hardware/qcom/bt" name="MoKee/android_hardware_qcom_bt" groups="qcom,pdk-qcom" />
   <project path="hardware/qcom/camera" name="platform/hardware/qcom/camera" groups="qcom_camera,pdk-qcom" remote="aosp" />
-  <project path="hardware/qcom/data/ipacfg-mgr" name="platform/hardware/qcom/data/ipacfg-mgr" groups="qcom,pdk-qcom" remote="aosp" />
+  <project path="hardware/qcom/data/ipacfg-mgr" name="MoKee/android_hardware_qcom_data_ipacfg-mgr" groups="qcom,pdk-qcom" />
   <project path="hardware/qcom/display" name="MoKee/android_hardware_qcom_display" groups="pdk-qcom,qcom,qcom_display" />
   <project path="hardware/qcom/gps" name="MoKee/android_hardware_qcom_gps" groups="qcom,qcom_gps,pdk-qcom" />
   <project path="hardware/qcom/keymaster" name="MoKee/android_hardware_qcom_keymaster" groups="qcom,qcom_keymaster,pdk-qcom" />
@@ -609,7 +609,7 @@
   <project path="system/hardware/interfaces" name="platform/system/hardware/interfaces" groups="pdk" remote="aosp" />
   <project path="system/hwservicemanager" name="platform/system/hwservicemanager" groups="pdk" remote="aosp" />
   <project path="system/iorap" name="platform/system/iorap" groups="pdk" remote="aosp" />
-  <project path="system/keymaster" name="platform/system/keymaster" groups="pdk" remote="aosp" />
+  <project path="system/keymaster" name="MoKee/android_system_keymaster" groups="pdk" />
   <project path="system/libfmq" name="platform/system/libfmq" groups="pdk" remote="aosp" />
   <project path="system/libhidl" name="platform/system/libhidl" groups="pdk" remote="aosp" />
   <project path="system/libhwbinder" name="platform/system/libhwbinder" groups="pdk" remote="aosp" />
