@@ -25,10 +25,6 @@
   <project path="kernel/nubia/msm8976" name="nubia-development/android_kernel_nubia_msm8976" revision="nubia_msm8976_p-dev" remote="private"/>
   <!-- Nubia MSM8976 Devices End -->
 
- <!-- Clang 9.0.3 for Q tag kernel -->
-  <project path="prebuilts/clang/host/linux-x86/clang-r353983c" name="Cyborg2017/prebuilts_clang_host_linux-x86_clang-r353983c" revision="master" remote="private"/>
 
- <!-- Clang 9.0.8 for Q tag kernel -->
-  <project path="prebuilts/clang/host/linux-x86/clang-r365631c" name="Cyborg2017/prebuilts_clang_host_linux-x86_clang-r365631c" revision="master" remote="private"/>
 
 </manifest>
